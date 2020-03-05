@@ -1,6 +1,6 @@
 {
   "name": "@nexcella/logger",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Logger for TS/JS application",
   "main": "dist/index.js",
   "scripts": {
