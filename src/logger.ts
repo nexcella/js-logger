@@ -17,7 +17,7 @@ type LogMessage = {
   context?: any[]
 }
 
-class Logger {
+export class Logger {
   constructor(private config: LoggerConfig) {
   }
 
