@@ -1,0 +1,33 @@
+{
+  "name": "@nexcella/logger",
+  "version": "0.0.0",
+  "description": "Logger for TS/JS application",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "postversion": "npm run publish",
+    "prepublish": "npm run build",
+    "postpublish": "git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:nexcella/js-logger.git"
+  },
+  "keywords": [
+    "logger"
+  ],
+  "author": "Andrey Shabanov <a.shabanov.develop@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nexcella/js-logger/issues"
+  },
+  "types": "dist/index.d.ts",
+  "private": false,
+  "homepage": "https://github.com/nexcella/js-logger#readme",
+  "dependencies": {
+    "typescript": "^3.8.3"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
