@@ -1,1 +1,3 @@
-# js-logger
+# Logger
+
+
